@@ -1,0 +1,19 @@
+/* CSS personalizado para a logo */
+.logo-responsive {
+    height: 90px; /* Altura padrão */
+    width: auto;
+    max-height: 100px; /* Altura máxima em telas grandes */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    .logo-responsive {
+        height: 60px; /* Altura reduzida para dispositivos móveis */
+    }
+}
+
+/* Ajuste para telas muito pequenas */
+@media (max-width: 576px) {
+    .logo-responsive {
+        height: 50px; /* Altura ainda menor para smartphones */
+    }

@@ -1,0 +1,66 @@
+/* admin/app/views/dashboard/admin.css */
+
+/* Estilo customizado para o layout do dashboard */
+.content-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #1b5e20, #00695c, #004d40); /* Gradiente de verde para um azul-esverdeado escuro */
+    color: #ffffff;
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar .logo img {
+    max-width: 80%;
+    margin-bottom: 15px;
+    border-radius: 8px; /* Borda arredondada na logo */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar a logo */
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efeito de hover translúcido */
+    color: #b2ff59; /* Um verde claro que remete ao campo de futebol */
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+    color: #a5d6a7; /* Cor icônica dos ícones */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+	padding-left: 0px!important;
+}
+
+.dashboard-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 85px;
+	margin-left: 85px;
+}
+
+.dashboard-item {
+	flex: 1;
+	margin: 10px;
+}
